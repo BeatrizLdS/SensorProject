@@ -1,7 +1,3 @@
-Aqui está uma versão aprimorada do README para o seu projeto:
-
----
-
 # Middleware Orientado a Mensagens com RabbitMQ
 
 Este projeto utiliza RabbitMQ como Middleware Orientado a Mensagens. Abaixo estão as instruções para configurar e executar o projeto em um ambiente macOS.
