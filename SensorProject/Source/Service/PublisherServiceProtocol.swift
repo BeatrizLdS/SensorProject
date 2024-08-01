@@ -38,8 +38,7 @@ class PublisherRabbitMQ: MessengerPublisherServiceProtocol {
     
     func sendMessage(message: Data, channelKey: String) {
         if let channelConnection = channel {
-            channelConnection.queue(channelKey, options: .durable)
-            channelConnection.basicPublish(message, routingKey: channelKey, exchange: "", properties: [])
+            channelConnection.basicPublish(message, routingKey: channelKey, exchange: channelKey, properties: [])
         }
     }
     
