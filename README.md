@@ -43,5 +43,3 @@ Use as credenciais padrão para fazer login:
 Agora, você pode executar o projeto. Certifique-se de que o RabbitMQ está em execução e o sistema estará pronto para uso.
 
 ---
-
-Sinta-se à vontade para ajustar conforme necessário!
